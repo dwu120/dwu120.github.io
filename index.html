@@ -44,15 +44,35 @@
 		<script src=""></script>
 
 		<script src=""></script>-->
+	</head>
+	<body>
+		<button onclick="myFunction()">Instrctions</button>
 
-		<button onclick="myFunction()">Click me</button>
-
-<p id="demo"></p>
+<p id="intruct"></p>
 
 <script>
 function myFunction() {
-    document.getElementById("demo").innerHTML = "Hello World";
+    document.getElementById("instruct").innerHTML = "Welcome to Ditto, a word-guessing game.";
+}
+
+<button onclick="myFunction2()">Join a Game</button>
+
+<p id="join"></p>
+
+<script>
+function myFunction2() {
+    document.getElementById("join").innerHTML = "Enter a server number:";
 }
 </script>
-	</head>
+
+<button onclick="myFunction3()">Create a Game</button>
+
+<p id="create"></p>
+
+<script>
+function myFunction3() {
+    document.getElementById("create").innerHTML = "succ me";
+}
+</script>
+	</body>
 </html>
